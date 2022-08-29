@@ -1,0 +1,68 @@
+/* Base setting, you can remove */
+
+* {
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999999;
+    background-color: rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    /* display: none; */
+}
+
+.modal.active {
+    display: flex;
+}
+
+.modal-content {
+    min-height: 350px;
+    width: 100%;
+    max-width: 800px;
+    padding: 25px;
+    border-radius: 20px;
+    position: relative;
+    background-color: #fff;
+}
+
+.modal-close {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 10rem;
+    background-color: #6a5af9;
+    color: white;
+    cursor: pointer;
+}
+
+.btn {
+    padding: 5px 30px;
+    float: right;
+    border: none;
+    font-weight: 700;
+    background-color: #6a5af9;
+    border-radius: 20px;
+}
+
+.btn:hover {
+    background-color: dodgerblue;
+    color: #333;
+}

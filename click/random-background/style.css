@@ -1,0 +1,16 @@
+body {
+    display: flex;
+}
+.btn {
+    margin: auto;
+    padding: 10px 30px;
+    font-weight:700;
+    font-size: 1.2rem;
+    border: none;
+    background-color: aqua;
+    border-radius: 20px;
+    color: #333;
+}
+.btn:hover {
+    background-color: rgb(135, 194, 194);
+}
